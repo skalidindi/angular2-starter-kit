@@ -2,6 +2,7 @@
    "compilerOptions": {
       "target": "es5",
       "module": "system",
+      "moduleResolution": "node",
       "out": "./dist/app.js",
       "emitDecoratorMetadata": true,
       "removeComments": true,
@@ -19,7 +20,8 @@
    ],
    "compileOnSave": false,
    "files": [
-      "./src/app/app.component.ts"
+      "./src/app/app.component.ts",
+      "./src/app/app.main.ts"
    ],
    "atom": {
       "rewriteTsconfig": true

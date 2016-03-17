@@ -4,7 +4,7 @@ SystemJS.config({
   packages: {
     "angular-starter-kit": {
       "defaultExtension": "ts",
-      "main": "app/app.component",
+      "main": "app/app.main",
       "format": "esm",
       "meta": {
         "*.ts": {
