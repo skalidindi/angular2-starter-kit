@@ -180,5 +180,8 @@
     "rimraf": "^2.5.2",
     "tslint": "^3.6.0",
     "typescript": "^1.8.9"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.9"
   }
 }
