@@ -1,13 +1,25 @@
-# Angular 2 Starter Kit
+# Angular 2 Starter Kit (WIP)
 
-This is a opinionated starter kit with the following stack
+This is an opinionated starter kit with the following stack
 - angular2
 - typescript
 - jspm
 - sass
 
+Attempting to follow these style guides
+	https://github.com/mgechev/angular2-style-guide
+	https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines
+
+Note: Please change tslint rules
+	"directive-selector-prefix": [true, "sg"]
+	"component-selector-prefix": [true, "sg"]
+
+by replacing the prefix "sg" with whatever is appropriate for your app.
+
 ## todo
 * Figure out strategy to improve performance of jspm dev workflow
 * Add angular redux
 * Add production build workflow
-* Many, many more
+* Adding testing dependencies and example code
+* Write a simple demo app
+* Much, much more
