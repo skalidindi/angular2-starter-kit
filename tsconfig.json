@@ -1,0 +1,27 @@
+{
+   "compilerOptions": {
+      "target": "es5",
+      "module": "system",
+      "out": "./dist/app.js",
+      "emitDecoratorMetadata": true,
+      "removeComments": true,
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "noImplicitAny": false,
+      "pretty": true,
+      "listFiles": true
+   },
+   "filesGlob": [
+      "./src/**/*.ts",
+      "!./jspm_packages/**/*.ts",
+      "!./node_modules/**/*.ts",
+      "!./typings/**/*.ts"
+   ],
+   "compileOnSave": false,
+   "files": [
+      "./src/app/app.component.ts"
+   ],
+   "atom": {
+      "rewriteTsconfig": true
+   }
+}
