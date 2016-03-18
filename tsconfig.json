@@ -1,37 +1,22 @@
 {
    "compilerOptions": {
-      "target": "es5",
-      "module": "commonjs",
+      "target": "es6",
+      "module": "system",
       "moduleResolution": "node",
-      "outDir": "dist",
+      "outFile": "dist/app.js",
       "emitDecoratorMetadata": true,
       "allowSyntheticDefaultImports": true,
-      "declaration": true,
+      "declaration": false,
       "removeComments": true,
-      "sourceMap": true,
+      "sourceMap": false,
       "experimentalDecorators": true,
-      "noImplicitAny": false,
-      "pretty": true,
-      "listFiles": true
+      "noEmitOnError": true,
+      "noImplicitAny": false
    },
-   "filesGlob": [
-      "./src/**/*.ts",
-      "!./jspm_packages/**/*.ts",
-      "!./node_modules/**/*.ts",
-      "./typings/**/*.ts"
-   ],
    "compileOnSave": false,
    "files": [
-      "./src/app/app.component.ts",
       "./src/app/app.main.ts",
-      "./typings/main.d.ts",
-      "./typings/main/ambient/es6-collections/index.d.ts",
-      "./typings/main/ambient/es6-promise/index.d.ts",
-      "./typings/main/ambient/zone.js/index.d.ts"
-   ],
-   "exclude": [
-      "./typings/browser/",
-      "./typings/browser.d.ts"
+      "./typings/main.d.ts"
    ],
    "atom": {
       "rewriteTsconfig": true
